@@ -158,12 +158,7 @@ $(document).ready(function() {
 							$(this).removeClass("selected");
 						});
 						$(this).parent().addClass("selected");
-						if ($(this).val() == cats.length-1) {
-							// show the input box if other is selected
-							$(this).closest('div.choices').find(".other").show().find("input").focus();
-						} else {
-							$(this).closest('div.choices').find(".other").hide();
-						}
+						$(this).closest('div.choices').find(".other").hide();
 						// Mark question # as completed
 						var num = parseInt($(this).closest(".question").prev().attr("id"))/2;
 						$("#navBarInner").children().each(function(){
