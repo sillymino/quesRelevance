@@ -6,29 +6,23 @@ var cats = [
 ];
 
 var catsText = {
-    "GoodGen": "<strong>Good General Question</strong> (e.g. answers the question, correctly OR incorrectly)",
-    "GoodYes": "<strong>Bad</strong> (e.g. does not answer the question)",
-    "Bad": "<strong>Potential</strong> (e.g. potentially useful information, but does not answer the question)"
+    "GoodGen": "<strong>Good General</strong> (e.g. is an open-ended question that other people would find useful)",
+    "GoodYes": "<strong>Good Yes/No</strong> (e.g. is a yes-no question that other people would find useful)",
+    "Bad": "<strong>Bad</strong> (e.g. not something other people would find useful)"
 };
 
 var examples = {
     "GoodGen": [
         "<strong>Short Question:</strong> Oil Baths facilities in Qatar?",
-        "<strong>Full Question:</strong> Any suggestions for Spas having the facility of Oil Baths?",
-        "<strong>Response Subject:</strong> There is Turkish Hamams, I",
-        "<strong>Response Body:</strong> There is Turkish Hamams, I will have to check with my QL buddy Kellyheroes and get back to you!"
+        "<strong>Full Question:</strong> Any suggestions for Spas having the facility of Oil Baths?"
     ],
     "GoodYes": [
         "<strong>Short Question:</strong> Oil Baths facilities in Qatar?",
-        "<strong>Full Question:</strong> Any suggestions for Spas having the facility of Oil Baths?",
-        "<strong>Response Subject:</strong> Brit",
-        "<strong>Response Body:</strong> It could be a good defence against intruders if any .."
+        "<strong>Full Question:</strong> Any suggestions for Spas having the facility of Oil Baths?"
     ],
     "Bad": [
         "<strong>Short Question:</strong> Oil Baths facilities in Qatar?",
-        "<strong>Full Question:</strong> Any suggestions for Spas having the facility of Oil Baths?",
-        "<strong>Response Subject:</strong> Please be careful. Remember",
-        "<strong>Response Body:</strong> Please be careful. Remember that crude oil can seep into the pores and can be toxic :O("
+        "<strong>Full Question:</strong> Any suggestions for Spas having the facility of Oil Baths?"
     ]
 };
 

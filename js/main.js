@@ -146,7 +146,6 @@ $(document).ready(function() {
     			var radios = createRadioButtons(ind);
     			var comment = $("<div class='question'>")
 					.addClass("even") //highlights the comment box blue
-					.append($("<div class='query'>").html(query)) //puts in the actual text
 					.append($("<p class='pretext'>").text(_T.pretext))
 					.append(radios)
 					.append($("</div></div>"))
